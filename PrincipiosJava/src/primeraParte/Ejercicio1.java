@@ -8,8 +8,8 @@ public class Ejercicio1 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Ingrese un numero entero numero: ");
         int numero = sc.nextInt();
-        for(int i=1; i<=numero; i++){
-            System.out.println("El numero: "+i+" es par");
+        for(int i=2; i<=numero; i++){
+            if(i%2==0) System.out.println("El numero: "+i+" es par");
         }
     }
 
