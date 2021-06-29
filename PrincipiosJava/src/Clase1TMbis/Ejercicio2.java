@@ -1,4 +1,4 @@
-package segundaEjercitacion;
+package Clase1TMbis;
 
 public class Ejercicio2 {
 

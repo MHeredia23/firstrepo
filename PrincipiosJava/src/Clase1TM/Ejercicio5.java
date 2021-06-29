@@ -1,4 +1,4 @@
-package primeraParte;
+package Clase1TM;
 
 import java.util.Scanner;
 

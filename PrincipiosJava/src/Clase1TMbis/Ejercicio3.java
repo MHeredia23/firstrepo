@@ -1,4 +1,4 @@
-package segundaEjercitacion;
+package Clase1TMbis;
 
 import java.util.Scanner;
 
