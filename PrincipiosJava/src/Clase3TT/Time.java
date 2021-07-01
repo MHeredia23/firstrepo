@@ -5,24 +5,20 @@ import java.time.LocalDateTime;
 
 public class Time {
 
-    private LocalDateTime start;
-    private LocalDateTime stop;
+    private Long start;
+    private Long stop;
 
     public void start(){
-        this.start = LocalDateTime.now();
+        this.start = System.currentTimeMillis();
     }
 
     public void stop(){
-        this.stop = LocalDateTime.now();
+        this.stop = System.currentTimeMillis();
     }
 
     public String elapsedTime(){
-        long milisegundosInicio = Timestamp.valueOf(start).getTime();
-        System.out.println(milisegundosInicio);
-        long milisegundosfin = Timestamp.valueOf(stop).getTime();
-        System.out.println("milisegundosfin = " + milisegundosfin);
-        long tiempo = milisegundosInicio - milisegundosfin;
-        return tiempo+" en milisegundos";
+        long time = (stop - start)/1000;
+        return time+" en segundos";
     }
 
 }

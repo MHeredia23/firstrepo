@@ -19,10 +19,10 @@ public class QuickSortSorterImple<T> implements Sorter<T>{
 
         while(i<j)
         {
-            while (c.compare(arr[i], pivote) <=0 && i < j)
+            while (c.compare(arr[i], pivote) <0 && i < j)
                 i++;
 
-            while (c.compare(arr[j], pivote) >=0)
+            while (c.compare(arr[j], pivote) >0)
                 j--;
 
             if (i<j)
