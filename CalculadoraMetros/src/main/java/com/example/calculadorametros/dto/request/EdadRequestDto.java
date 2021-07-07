@@ -2,6 +2,7 @@ package com.example.calculadorametros.dto.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import org.springframework.validation.annotation.Validated;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
@@ -9,6 +10,7 @@ import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
 @Data
+@Validated
 @AllArgsConstructor
 public class EdadRequestDto {
 
