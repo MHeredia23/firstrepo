@@ -1,4 +1,4 @@
-package com.example.linktracker.dtos.response;
+package com.example.caloriecalculator.dtos.response;
 
 import lombok.Builder;
 import lombok.Getter;
